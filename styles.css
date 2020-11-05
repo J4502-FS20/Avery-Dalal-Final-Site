@@ -19,10 +19,9 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #0E6481;
-}
-
-li {
-  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 li a {
@@ -39,6 +38,8 @@ li a:hover {
 }
 
 h1{
+  display: flex;
+  justify-content: center;
   font-size: 40px;
   font-family: 'Merriweather', serif;
   color: black;
