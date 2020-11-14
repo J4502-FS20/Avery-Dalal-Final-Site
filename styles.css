@@ -16,7 +16,6 @@ ul {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #0E6481;
   display: flex;
@@ -32,7 +31,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #E7C313;
 }
