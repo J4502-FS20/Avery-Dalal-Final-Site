@@ -11,9 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="main.js" defer></script>
 </head>
-
 <body>
+
 <h1>The History of Baseball's Negro Leagues</h1>
 <nav>
 <ul>
@@ -23,6 +24,91 @@
   <li><a href="quiz.html">Quiz</a></li>
 </ul>
 </nav>
-<h1>Quiz</h1>
-<p>{Creating quiz after rest of information is up}</p>
+
+<form>
+  <h2>1)	How many teams were in the National Negro League?</h2>
+  <img src="1936_east_lg.jpg" width="375" height="225" alt="Picture of the 1936 East All Star Team">
+    <div><input id="6" type="radio" name="teams" value="6">
+    <label for="6">6</label></div>
+
+    <div><input id="8" type="radio" name="teams" value="8">
+    <label for="8">8</label></div>
+
+    <div><input id="10" type="radio" name="teams" value="10">
+    <label for="10">10</label></div>
+
+    <div><input id="12" type="radio" name="teams" value="12">
+    <label for="12">12</label></div>
+</form>
+
+<form>
+  <h2>2)	Who founded the National Negro League?</h2>
+  <img src="foster_andrew_lg.jpg" width="275px" height="400px" alt="Picture of Rube Foster">
+    <div><input id="Rube Foster" type="radio" name="founder" value="Rube Foster">
+    <label for="Rube Foster">Rube Foster</label></div>
+
+    <div><input id="Satchel Paige" type="radio" name="founder" value="Satchel Paige">
+    <label for="Satchel Paige">Satchel Paige</label></div>
+
+    <div><input id="Jackie Robinson" type="radio" name="founder" value="Jackie Robinson">
+    <label for="Jackie Robinson">Jackie Robinson</label></div>
+
+    <div><input id="Branch Rickey" type="radio" name="founder" value="Branch Rickey">
+    <label for="Branch Rickey">Branch Rickey</label></div>
+</form>
+
+<form>
+  <h2>3)	What year was the National Negro League Founded?</h2>
+  <img src="1948_west_allstar.jpg" alt="Picture of the 1948 West All Star Team">
+    <div><input id="1947" type="radio" name="year" value="1947">
+    <label for="1947">1947</label></div>
+
+    <div><input id="1867" type="radio" name="year" value="1867">
+    <label for="1867">1867</label></div>
+
+    <div><input id="1942" type="radio" name="year" value="1942">
+    <label for="1942">1942</label></div>
+
+    <div><input id="1920" type="radio" name="year" value="1920">
+    <label for="1920">1920</label></div>
+</form>
+
+<form>
+  <h2>4)	What position did Satchel Paige play?</h2>
+  <img src="paige_leroy_lg.jpg" width="275px" height="400px" alt="Picture of Pitcher Satchel Paige">
+    <div><input id="Pitcher" type="radio" name="position" value="Pitcher">
+    <label for="Pitcher">Pitcher</label></div>
+
+    <div><input id="Catcher" type="radio" name="position" value="Catcher">
+    <label for="Catcher">Catcher</label></div>
+
+    <div><input id="Center Fielder" type="radio" name="position" value="Center Fielder">
+    <label for="Center Fielder">Center Fielder</label></div>
+
+    <div><input id="Third Base" type="radio" name="position" value="Third Base">
+    <label for="Third Base">Third Base</label></div>
+</form>
+
+<form>
+  <h2>5)	What was the name of the team that Jackie Robinson played for in the Negro Leagues?</h2>
+  <img src="robinson_jackie_lg.jpg" width="275px" height="400px" alt="Picture of Jackie Robinson">
+    <div><input id="Stars" type="radio" name="city" value="Brooklyn">
+    <label for="Stars">Stars</label></div>
+
+    <div><input id="Dodgers" type="radio" name="city" value="Chicago">
+    <label for="Dodgers">Dodgers</label></div>
+
+    <div><input id="Monarchs" type="radio" name="city" value="Kansas City">
+    <label for="Monarchs">Monarchs</label></div>
+
+    <div><input id="Giants" type="radio" name="city" value="Pittsburgh">
+    <label for="Giants">Giants</label></div>
+</form>
+
+<button class="shadow" id="submit">Submit</button>
+
+<p class="answers" id="answerTally"></p>
+
+
 </body>
+</html>
