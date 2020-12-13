@@ -35,23 +35,3 @@ for (var i = 0; i < radios.length; i++) {
     console.log("A radio button has been selected!");
   });
 }
-
-var photoDivs = document.getElementByClassName("imageHolder");
-
-var nextButton = document. getElementById("button_next");
-
-var currentPhotoNumber = 0;
-
-photoDivs[0].classList.remove('hideThisDiv');
-
-nextButton.addEventListener('click', function() {
-    photoDivs[0].classList.add('hideThisDiv');
-    currentPhotoNumber = currentPhotoNumber + 1;
-    photoDivs[currentPhotoNumber].classList.remove('hideThisDiv');
-    console.log(currentPhotoNumber);
-
-    if (currentPhotoNumber === photoDivs.length) {
-      currentPhotoNumber = 0;
-    }
-    
- });
